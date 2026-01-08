@@ -28,7 +28,7 @@ function App() {
       <br />
 
       {/* // countDate is 17th June 2027 */}
-      <span>{count} from today is {baseDate.toLocaleDateString()}</span>
+      <span>{count} from today is {baseDate.toDateString()}</span>
 
 
 
